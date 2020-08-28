@@ -1,0 +1,91 @@
+* {
+  margin: 0 auto;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  background-color: lightgrey;
+}
+
+.top {
+  background-color: rgb(88, 99, 177);
+  width: 850px;
+  height: 250px;
+  position: relative;
+  top: 10%;
+}
+
+#info {
+  color: white;
+  position: relative;
+  top: 60%;
+  left: 20%;
+}
+
+#profilePic {
+  border: 2px solid black;
+  height: 150px;
+  width: 150px;
+  top: 140px;
+  left: 10px;
+  position: absolute;
+  background-color: rgb(88, 99, 177);
+}
+
+#derpFace {
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  z-index: 1;
+  border: 2px solid black;
+}
+
+li {
+  display: inline;
+}
+
+.topButtons {
+  position: absolute;
+  top: 215px;
+  left: 520px;
+}
+.rightButtons {
+  margin: 0;
+  /* change margin */
+  /* change height */
+}
+
+#like {
+  border-radius: 7%;
+  border-width: 0.75px;
+  height: 25px;
+  vertical-align: top;
+  border: 2px solid black;
+  /* edit the border radius, not border: solid */
+}
+
+#like {
+  margin-right: 20px;
+}
+
+#timeline {
+  border-bottom: 3px solid blue;
+  margin-right: 25px;
+}
+
+.navTabs {
+  background-color: white;
+  width: 850px;
+  height: 50px;
+  position: relative;
+}
+
+#tabs {
+  padding: 20px;
+  top: -5px;
+  left: 150px;
+  position: absolute;
+}
